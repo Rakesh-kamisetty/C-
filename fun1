@@ -1,0 +1,12 @@
+#include <stdio.h>
+void fun1();  //Without declaring the prototype u can't call a function it occurs an error
+int main() 
+{ 
+   fun1(); 
+   getchar(); 
+   return 0; 
+} 
+void fun1() 
+{ 
+   printf("C programming"); 
+} 
